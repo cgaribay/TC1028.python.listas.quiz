@@ -14,33 +14,54 @@ if __name__ == '__main__':
 
 La línea `#escribe tu código abajo de esta línea` es un comentario, el programa la va a ignorar al ejecutarse.
 
-Escribe un programa que primero lea la cantidad de elementos que vas a ingresar en la lista y después acepte cada uno de los elementos. Todos los datos que se ingresan deben ser números enteros.
-Posteriormente, el programa debe revisar la lista, y para cada uno de los valores pares que encuentre mostrar un mensaje con la posición y el valor del número par usando un formato que se describe más adelante.
+Escribe un programa que primero lea la cantidad de elementos que vas a ingresar en la lista y después acepte cada uno de los elementos. Todos los datos que se ingresan deben ser números enteros. Si el usuario pone un número menor a uno se imprimirá un mensaje de error.
+
+Posteriormente, el programa debe calcular la media (promedio) y la mediana y desplegarlos en la terminal.
+
+**Importante:** Utiliza dos funciones, una llamada media y otra llamada mediana, que como entrada una lista y regresan como resultado la media y la mediana respectivamente.
 
 ## Entrada
 Un número entero que representa la cantidad de valores que tiene la lista, asi como cada uno de los valores de la lista.
 
 ## Salida
-Un mensaje para cada uno de los números pares encontrados en la lista. El mensaje debe tener el formato:
-```
-pos XX, valor XX
-```
-Observa que va la palabra ``pos`` seguida de un ``número``, después una ``coma``, un `espacio`, luego la palabra ``valor`` y luego otro ``número``. 
+Un mensaje que muestre la media y la mediana. Observa que tanto la media como la mediana son valores **flotantes**.
  
 ## Ejemplo de ejecución del programa:
 ### Entrada
 ```
->>>5
->>>1
->>>2
->>>3
->>>4
->>>5
+>>>0
 ```
 ### Salida
 ```
-pos 1, valor 2
-pos 3, valor 4
+Error
+```
+### Entrada
+```
+>>>5
+>>>1
+>>>4
+>>>7
+>>>2
+>>>3
+```
+### Salida
+```
+Media: 3.4
+Mediana: 3.0
+```
+
+### Entrada
+```
+>>>4
+>>>3
+>>>8
+>>>5
+>>>2
+```
+### Salida
+```
+Media: 4.5
+Mediana: 4.0
 ```
 No uses letreros para pedir los datos y diseña los letreros de salida iguales a los del ejemplo.
 
