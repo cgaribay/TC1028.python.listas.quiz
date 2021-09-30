@@ -18,7 +18,7 @@ Escribe un programa que primero lea la cantidad de elementos que vas a ingresar 
 
 Posteriormente, el programa debe calcular la media (promedio) y la mediana y desplegarlos en la terminal.
 
-**Importante:** Utiliza dos funciones, una llamada media y otra llamada mediana, que como entrada una lista y regresan como resultado la media y la mediana respectivamente.
+**Importante:** Utiliza dos funciones, una llamada media y otra llamada mediana, que reciben como parámetro de entrada una lista y regresan como resultado la media y la mediana respectivamente.
 
 ## Entrada
 Un número entero que representa la cantidad de valores que tiene la lista, asi como cada uno de los valores de la lista.
